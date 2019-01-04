@@ -80,7 +80,7 @@ int main(int argc, char * argv[])
 	
 	int *d_a, *d_b;
 
-    init_a(h_a);
+   	init_a(h_a);
 	init_b(h_b);
 	
 	cudaMalloc((void**)&d_a, sz_in_bytes);
